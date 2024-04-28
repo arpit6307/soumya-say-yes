@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppinss', sans-serif;
+}
+body{
+    background: #ac2525;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+.wrapper{
+    position: relative;
+    background: url('Group 2.png');
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 450px;
+    box-shadow: 2px 0px 15px 9px rgba(56, 31, 31. 0.75);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.question{
+    margin-top: 30%;
+}
+h2{
+    font-size: 3rem;
+    color: #fff;
+    margin: 15px 0;
+    font-weight: bold;
+}
+.btn-group{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.btn-group .yes-btn{
+    background: #0ef;
+    box-shadow: -7px 3px 43px 25px rgba(0, 238, 255,0.75);
+    color: #000;
+    font-weight: bold;
+}
+button{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: 1px solid #49053a;
+    outline: none;
+    box-shadow: 2px 0px 15px 9px rgba(56, 31, 31. 0.75);
+}
+button:nth-child(1){
+    margin-left: -200px;
+    background: #49053a;
+}
+button:nth-child(2){
+    margin-right: -200px;
+    background: #49053a;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
